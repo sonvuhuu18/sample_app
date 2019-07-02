@@ -1,13 +1,26 @@
 en:
   hello: "Hello world"
   title: "Ruby on Rails Tutorial Sample App"
+  navbar:
+    title: "Sample App"
+    home: "Home"
+    help: "Help"
+    login: "Log in"
+  footer:
+    content: |
+      The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+      by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+    about: "About"
+    contact: "Contact"
+    news: "News"
   home:
     title: "Home"
-    h1: "Sample App"
+    h1: "Welcome to the Sample App"
     content: |
       This is the home page for the
       <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
       sample application.
+    signup: "Sign up now!"
   help:
     title : "Help"
     h1: "Help"
@@ -29,3 +42,11 @@ en:
       to teach web development with
       <a href="http://rubyonrails.org/">Ruby on Rails</a>.
       This is the sample application for the tutorial.
+  contact:
+    title: "Contact"
+    h1: "Contact"
+    content: |
+      Contact the Ruby on Rails Tutorial about the sample app at the
+      <a href="https://www.railstutorial.org/contact">contact page</a>.
+  signup:
+    title: "Sign up"
