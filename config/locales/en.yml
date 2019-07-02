@@ -50,3 +50,9 @@ en:
       <a href="https://www.railstutorial.org/contact">contact page</a>.
   signup:
     title: "Sign up"
+    h1: "Sign up"
+    confirmation: "Confirmation"
+    create: "Create my account"
+    contain: "The form contains "
+    error: "error"
+    success: "Welcome to the Sample App!"
