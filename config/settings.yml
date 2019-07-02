@@ -1,0 +1,3 @@
+users_name_max_length: 50
+users_email_max_length: 255
+users_password_max_length: 6
