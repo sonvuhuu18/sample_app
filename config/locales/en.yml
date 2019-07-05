@@ -6,6 +6,11 @@ en:
     home: "Home"
     help: "Help"
     login: "Log in"
+    users: "Users"
+    account: "Account "
+    profile: "Profile"
+    settings: "Settings"
+    logout: "Logout"
   footer:
     content: |
       The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
@@ -56,3 +61,9 @@ en:
     contain: "The form contains "
     error: "error"
     success: "Welcome to the Sample App!"
+  login:
+    title: "Log in"
+    h1: "Log in"
+    new_user: "New user? "
+    signup: "Sign up now!"
+    invalid: "Invalid email/password combination"
