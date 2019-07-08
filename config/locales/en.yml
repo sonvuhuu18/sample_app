@@ -60,7 +60,9 @@ en:
     submit: "Create my account"
     contain: "The form contains "
     error: "error"
-    success: "Welcome to the Sample App!"
+    success: Account activated!
+    info: Please check your email to activate your account.
+    danger: Invalid activation link!
   login:
     title: "Log in"
     h1: "Log in"
@@ -69,6 +71,7 @@ en:
     invalid: "Invalid email/password combination"
     remember_me: "Remember me on this computer"
     login: "Log in"
+    warning: Account not activated. Check your email for the activation link.
   user:
     not_logged_in: "Please log in."
     not_found: User not found!
@@ -86,3 +89,11 @@ en:
       confirm: You sure?
     delete:
       success: User deleted
+  mailer:
+    activate:
+      subject: Account activation
+      h1: Sample App
+      greeting: Hi
+      content: |
+        Welcome to the Sample App! Click on the link below to activate your account:
+      link: Activate
