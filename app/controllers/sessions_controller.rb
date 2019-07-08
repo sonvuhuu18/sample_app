@@ -2,10 +2,12 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    user = User.find_by email: params[:session][:email].downcase
+    session = params[:session]
+    user = User.find_by email: session[:email].downcase
 
-    if user && user.authenticate(params[:session][:password])
+    if user && user.authenticate(session[:password])
       log_in user
+      session[:remember_me] == "1" ? remember(user) : forget(user)
       redirect_to user
     else
       flash.now[:danger] = t "login.invalid"
@@ -14,7 +16,7 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-    log_out
+    log_out if logged_in?
     redirect_to root_url
   end
 end
