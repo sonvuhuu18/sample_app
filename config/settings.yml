@@ -5,3 +5,7 @@ gravatar_size: 50
 default_gravatar_size: 50
 users_per_page: 25
 reset_token_duration: 2
+maximum_post_length: 140
+default_pic_width: 400
+default_pic_height: 400
+max_file_size: 5
