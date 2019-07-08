@@ -57,7 +57,7 @@ en:
     title: "Sign up"
     h1: "Sign up"
     confirmation: "Confirmation"
-    create: "Create my account"
+    submit: "Create my account"
     contain: "The form contains "
     error: "error"
     success: "Welcome to the Sample App!"
@@ -69,3 +69,20 @@ en:
     invalid: "Invalid email/password combination"
     remember_me: "Remember me on this computer"
     login: "Log in"
+  user:
+    not_logged_in: "Please log in."
+    not_found: User not found!
+    edit:
+      title: Edit user
+      h1: Update your profile
+      confirm: "Confirmation"
+      submit: "Save changes"
+      change: "Change"
+      success: "Profile updated"
+    index:
+      title: All users
+      h1: All users
+      delete: delete
+      confirm: You sure?
+    delete:
+      success: User deleted

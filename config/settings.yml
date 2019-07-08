@@ -1,3 +1,6 @@
 users_name_max_length: 50
 users_email_max_length: 255
-users_password_max_length: 6
+users_password_min_length: 6
+gravatar_size: 50
+default_gravatar_size: 50
+users_per_page: 25
