@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
     session = params[:session]
     user = User.find_by email: session[:email].downcase
 
-    if user && user.authenticate(session[:password])
+    if user&.authenticate(session[:password])
       if user.activated?
         log_in user
         session[:remember_me] == "1" ? remember(user) : forget(user)
