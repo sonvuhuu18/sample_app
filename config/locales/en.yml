@@ -77,6 +77,7 @@ en:
     not_found: User not found!
     view: View my profile
     micropost: micropost
+    microposts: "Microposts:"
     edit:
       title: Edit user
       h1: Update your profile
@@ -142,3 +143,8 @@ en:
       del_danger: Micropost failed to delete!
   picture:
     size: should be less than 5MB
+  relationship:
+    following: Following
+    followers: Followers
+    follow: Follow
+    unfollow: Unfollow

@@ -9,3 +9,4 @@ maximum_post_length: 140
 default_pic_width: 400
 default_pic_height: 400
 max_file_size: 5
+stats_gravatar_size: 30
