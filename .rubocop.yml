@@ -19,7 +19,7 @@ AllCops:
     - 'spec/**/*'
     - 'script/rails'
     - 'config/**/*'
-
+  TargetRubyVersion: 2.3
 # Indent private/protected/public as deep as method definitions
 Layout/AccessModifierIndentation:
   EnforcedStyle: indent
