@@ -3,12 +3,15 @@ source "https://rubygems.org"
 gem "bcrypt", "3.1.12"
 gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "3.3.7"
+gem "carrierwave", "1.1.0"
 gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "faker"
+gem "i18n-js"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
 gem "kaminari"
+gem "mini_magick"
 gem "puma", "~> 3.7"
 gem "rails", "~> 5.1.7"
 gem "rails-i18n"
@@ -38,6 +41,7 @@ group :test do
 end
 
 group :production do
+  gem "fog"
   gem "pg", "0.20.0"
 end
 

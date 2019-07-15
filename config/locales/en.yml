@@ -75,6 +75,8 @@ en:
   user:
     not_logged_in: "Please log in."
     not_found: User not found!
+    view: View my profile
+    micropost: micropost
     edit:
       title: Edit user
       h1: Update your profile
@@ -89,6 +91,8 @@ en:
       confirm: You sure?
     delete:
       success: User deleted
+    show:
+      h3: Microposts
   mailer:
     activate:
       subject: Account activation
@@ -123,3 +127,18 @@ en:
       submit: Update password
       confirm: Confirmation
     empty: can't be empty
+  micropost:
+    submit: Post
+    placeholder: Compose new micropost...
+    h3: Micropost Feed
+    delete: delete
+    confirm: You sure?
+    posted: "Posted "
+    ago: " ago."
+    alert_js: "Maximum file size is 5MB. Please choose a smaller file."
+    flash:
+      success: Micropost created!
+      del_success: Micropost deleted!
+      del_danger: Micropost failed to delete!
+  picture:
+    size: should be less than 5MB
