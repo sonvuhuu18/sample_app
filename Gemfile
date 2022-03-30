@@ -12,7 +12,7 @@ gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
 gem "kaminari"
 gem "mini_magick"
-gem "puma", "~> 3.7"
+gem "puma", "~> 4.3"
 gem "rails", "~> 5.1.7"
 gem "rails-i18n"
 gem "rubocop", "~> 0.54.0", require: false
